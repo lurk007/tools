@@ -87,7 +87,7 @@ DATABASES = {
         'USER': 'arkiller_com',
         'HOST': '182.92.115.60',
         'PORT': '3306',
-        'PASSWORD': 'lurk990713.'
+        'PASSWORD': 'lurkadmin123.'
     }
 }
 
