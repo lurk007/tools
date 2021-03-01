@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="{% static 'blog/css/public/background.css' %}">
+<!--背景 start-->
+<canvas id=c class="canvas"></canvas>
+<script src="{% static 'blog/js/public/background.js' %}"></script>
+<script type="text/javascript">
+    $(function () {
+        //添加窗口尺寸改变响应监听
+        $(window).resize(resizeCanvas);
+        //页面加载后先设置一下canvas大小
+        resizeCanvas();
+    });
+
+    //窗口尺寸改变响应（修改canvas大小）
+    function resizeCanvas() {
+        document.getElementsByClassName('canvas').attr("width", $(window).get(0).innerWidth);
+        document.getElementsByClassName('canvas').attr("height", $(window).get(0).innerHeight);
+        {#$(".canvas").attr("width", $(window).get(0).innerWidth);#}
+        {#$(".canvas").attr("height", $(window).get(0).innerHeight);#}
+    };
+</script>
+<!--背景 end-->

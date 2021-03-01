@@ -1,0 +1,13 @@
+.header{
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: aqua;
+    background-color: rgba(248, 255, 52, 0.5);
+}
+.header>a{
+    margin-left: 30px;
+    margin-outside: 30px;
+}

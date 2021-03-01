@@ -1,0 +1,16 @@
+.beian {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    top: 6000px;
+    left: 20%;
+    color: #FFFFFF;
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+
+    /*position: fixed;*/
+    /*text-align: center;*/
+    /*bottom: 0;*/
+    /*z-index: 9999;*/
+}

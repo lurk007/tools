@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'blog/css/public/default.css' %}">
+</head>
+{#背景#}
+{% include 'blog/public/background.html' %}
+<body>
+<header>
+    {#    top导航栏#}
+    {% include 'blog/public/header.html' %}
+</header>
+<section class="section">
+    {#左导航栏#}
+    {% include 'blog/public/aside-left.html' %}
+    {#右导航栏#}
+    {% include 'blog/public/aside-right.html' %}
+    <div class="body">
+        {#    主体#}
+        {% include 'blog/public/article.html' %}
+    </div>
+</section>
+
+<footer class="footer">{% include 'blog/public/footer.html' %}</footer>
+</body>
+
+</html>

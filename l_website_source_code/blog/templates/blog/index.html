@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!--basic-->
+    <title>Wandering Boy's Blog</title>
+    <!--meta-->
+    <meta charset="utf-8"/>
+    <!--style-->
+    <style>
+        canvas {
+            position: fixed;
+            left: 0;
+            top: 0;
+            right: 0;
+            margin: 0 auto;
+            height: 100%;
+            width: 100%;
+            z-index: -999;
+            background-color: black;
+        }
+    </style>
+    <link href="../../static/blog/css/style.css" rel="stylesheet"/>
+    <link href="../../static/blog/css/blog_style.css" rel="stylesheet"/>
+
+    <!--[if lt IE 9]>
+    <script src="http://www.jq22.com/jquery/html5.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<!--navigation-->
+<!--<nav style="background: rgba(0,255,255,0.5)">-->
+<!--    <ul>-->
+<!--        <li class="active"></li>-->
+<!--    </ul>-->
+<!--</nav>-->
+<!--end navigation-->
+<!--main-->
+<main class="clearfix">
+    <!--sidebar-->
+    <aside id="sidebar" style="float: left">
+        <div class="inside">
+            <div class='md-toc'>
+                <span role="listitem"
+                      class="md-toc-item md-toc-h1"
+                      data-ref="n251">  <a href="http://www.arkiller.com">首页</a></span>
+                <span role="listitem"
+                      class="md-toc-item md-toc-h1"
+                      data-ref="n251"><a href="#django" class="md-toc-inner">Django第一课</a></span>
+                <span role="listitem"
+                      class="md-toc-item md-toc-h1"
+                      data-ref="n251"><a class="md-toc-inner"
+                                         href="#web基础培训-第二课">Web基础培训 第一课与第二课</a></span>
+            </div>
+        </div>
+    </aside>
+    <!--end sidebar-->
+    <!--main content-->
+    <div class="main_content" id="content">
+        <div id='write' class=''><h2><a name="django" class="md-header-anchor"></a><span>Django</span></h2>
+            <ul>
+                <li><p><span>虚拟环境</span></p>
+                    <p><img src="../../static/blog/img/django01_img/虚拟环境变量.png" referrerpolicy="no-referrer"
+                            alt="虚拟环境变量"></p>
+                    <p><span>指定虚拟环境创建的位置</span></p></li>
+                <li><p><span>安装Django环境</span></p>
+                    <pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang=""><div
+                            class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div
+                            style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea
+                            autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0"
+                            style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div
+                            class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div
+                            class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll"
+                                                                                              tabindex="-1"><div
+                            class="CodeMirror-sizer"
+                            style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div
+                            style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div
+                            role="presentation" style="position: relative; outline: none;"><div
+                            class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div
+                            style="position: relative; z-index: 1;"></div><div class="CodeMirror-code"
+                                                                               role="presentation"><div
+                            class="CodeMirror-activeline" style="position: relative;"><div
+                            class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div
+                            class="CodeMirror-gutter-background CodeMirror-activeline-gutter"
+                            style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line "
+                                                                      role="presentation"><span
+                            role="presentation" style="padding-right: 0.1px;">&gt;pip install pipenv</span></pre></div><div
+                            class="" style="position: relative;"><pre class=" CodeMirror-line "
+                                                                      role="presentation"><span
+                            role="presentation"
+                            style="padding-right: 0.1px;">&gt;cd xxx/Django_projext</span></pre></div><div
+                            class="" style="position: relative;"><pre class=" CodeMirror-line "
+                                                                      role="presentation"><span
+                            role="presentation" style="padding-right: 0.1px;">&gt;pipenv shell</span></pre></div><div
+                            class=""
+                            style="position: relative;"><pre
+                            class=" CodeMirror-line " role="presentation"><span role="presentation"
+                                                                                style="padding-right: 0.1px;">&gt;pip install Django==2.2</span></pre></div></div></div></div></div></div><div
+                            style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 104px;"></div><div
+                            class="CodeMirror-gutters" style="display: none; height: 104px;"></div></div></div></pre>
+                </li>
+                <li><p><span>创建项目</span></p>
+                    <pre lang="" class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false"><div
+                            class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div
+                            style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea
+                            autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0"
+                            style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div
+                            class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div
+                            class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll"
+                                                                                              tabindex="-1"><div
+                            class="CodeMirror-sizer"
+                            style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div
+                            style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div
+                            role="presentation" style="position: relative; outline: none;"><div
+                            class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div
+                            style="position: relative; z-index: 1;"></div><div class="CodeMirror-code"
+                                                                               role="presentation"><div
+                            class="CodeMirror-activeline" style="position: relative;"><div
+                            class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div
+                            class="CodeMirror-gutter-background CodeMirror-activeline-gutter"
+                            style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line "
+                                                                      role="presentation"><span
+                            role="presentation"
+                            style="padding-right: 0.1px;">&gt;django-admin startproject [项目名]</span></pre></div></div></div></div></div></div><div
+                            style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 26px;"></div><div
+                            class="CodeMirror-gutters" style="display: none; height: 26px;"></div></div></div></pre>
+                    <p><img src="../../static/blog/img/django01_img/django创建项目.png" referrerpolicy="no-referrer"
+                            alt="django创建项目">
+                    </p></li>
+            </ul>
+            <ul>
+                <li><p><span>模型迁移到数据库</span></p>
+                    <p><img src="../../static/blog/img/django01_img/模型迁移到数据库.png" referrerpolicy="no-referrer"
+                            alt="模型迁移到数据库"></p>
+                </li>
+            </ul>
+            <ul>
+                <li><p><span>运行django项目并访问</span></p>
+                    <p><img src="../../static/blog/img/django01_img/运行django项目.png" alt="运行django项目">
+                    </p>
+                    <p><img style="width: 100%" src="../../static/blog/img/django01_img/项目正常访问.png"
+                            referrerpolicy="no-referrer" alt="项目正常访问"></p></li>
+                <li><p><span>添加路由</span></p>
+                    <p><span>django本身缺陷，修改字符编码为utf-8</span></p>
+                    <p><img src="../../static/blog/img/django01_img/django本身缺陷，修改字符编码为utf-8.png"
+                            referrerpolicy="no-referrer"
+                            alt="django本身缺陷，修改字符编码为utf-8"></p>
+                    <p><span>硬性要求，固定格式</span></p>
+                    <p><span>定义试图时，第一个参数必须是request </span></p>
+                    <p><span>返回信息必须是HttpResponseBase 基类的对象或者它子类的对象才可以</span></p>
+                    <p><img src="../../static/blog/img/django01_img/硬性要求，固定格式.png" referrerpolicy="no-referrer"
+                            alt="硬性要求，固定格式"></p>
+                </li>
+            </ul>
+            <div class='md-toc' mdtype='toc'><p class="md-toc-content" role="list">
+            </p></div>
+            <h1><a name="web基础培训-第二课" class="md-header-anchor"></a><span>Web基础培训 第一课与第二课</span></h1>
+            <h6><span><a href='https://www.jianshu.com/p/f10e3127af03'><span>企业安全响应中心大全</span></a></span></h6>
+            <h6><span><a class="md-toc-inner" href="http://arv.asuhu.com/">工具和服务器镜像资源下载</a></span></h6>
+
+            <h3><a name="网络安全行业" class="md-header-anchor"></a><span>网络安全行业</span></h3>
+            <blockquote><h5><a name="行为分类" class="md-header-anchor"></a><span>行为分类</span></h5>
+                <ol>
+                    <li><span>白帽子</span></li>
+                    <li><span>黑客</span></li>
+                    <li><span>骇客</span></li>
+                    <li><span>红客</span></li>
+                </ol>
+                <h5><a name="web安全工程师安服仔）" class="md-header-anchor"></a><span>web安全工程师（安服仔）</span></h5>
+                <ol>
+                    <li><span>运维基础</span></li>
+                    <li><span>Web安全</span></li>
+                </ol>
+                <h5><a name="渗透测试工程师" class="md-header-anchor"></a><span>渗透测试工程师</span></h5>
+                <ul>
+                    <li><p><span>中级</span></p>
+                        <ol>
+                            <li><span>Web安全</span></li>
+                            <li><span>内网渗透</span></li>
+                            <li><span>熟悉各种语言Python、java、Goalng等</span></li>
+                        </ol>
+                    </li>
+                </ul>
+                <ul>
+                    <li><p><span>高级</span></p>
+                        <ol>
+                            <li><span>Web安全</span></li>
+                            <li><span>内网渗透</span></li>
+                            <li><span>熟悉各种语言Python、java、Goalng等</span></li>
+                            <li><span>APT方向</span></li>
+                        </ol>
+                    </li>
+                </ul>
+                <h5><a name="公安方向" class="md-header-anchor"></a><span>公安方向</span></h5>
+                <ul>
+                    <li><p><span>中级</span></p>
+                        <ol>
+                            <li><span>Web安全</span></li>
+                            <li><span>内网渗透</span></li>
+                            <li><span>熟悉各种语言Python、java、Goalng等</span></li>
+                        </ol>
+                    </li>
+                </ul>
+                <h5><a name="src-企业安全响应中心" class="md-header-anchor"></a><span>SRC: 企业安全响应中心</span></h5><h5><a
+                        name="web应用-访问的网站-即-应用" class="md-header-anchor"></a><span>web应用: 访问的网站 即 应用</span></h5><h5><a
+                        name="web安全发现web应用上出现的漏洞" class="md-header-anchor"></a><span>Web安全：发现Web应用上出现的漏洞</span></h5>
+            </blockquote>
+            <blockquote>
+                <!--                <h2><a name="网站组成" class="md-header-anchor"></a><span>网站组成</span></h2>-->
+                <h3><a name="家庭电脑" class="md-header-anchor"></a><span>家庭电脑</span></h3>
+                <p><span>主要组成：显卡、cpu、内存,倾向于视觉，效果，体验等 </span></p>
+                <blockquote><h6><a name="系统区别" class="md-header-anchor"></a><span>系统区别 </span></h6>
+                    <ul>
+                        <li><span>Windows 2000 </span></li>
+                        <li><span>Windows XP      </span><strong><span>标配容器</span></strong><span>：IIS 6.0</span></li>
+                        <li>
+                            <span>Windows 7         </span><strong><span>标配容器</span></strong><span>：IIS 7.0 or 7.5</span>
+                        </li>
+                        <li><span>Windows 8.1      </span><strong><span>标配容器</span></strong><span>：IIS 8.0 or 8.5</span>
+                        </li>
+                        <li><span>Windows 10       </span><strong><span>标配容器</span></strong><span>：IIS 10</span></li>
+                    </ul>
+                </blockquote>
+                <h3><a name="服务器-n30" class="md-header-anchor"></a><span>服务器 </span></h3>
+                <p><span>主要组成：cpu、内存 倾向于运行大型软件、大量计算等，系统稳定性高</span></p>
+                <blockquote><h6><a name="系统区别" class="md-header-anchor"></a><span>系统区别</span></h6>
+                    <ul>
+                        <li><span>Windows 2003   </span><strong><span>标配容器</span></strong><span>：IIS 6.0</span></li>
+                        <li><span>Windows 2008   </span><strong><span>标配容器</span></strong><span>：IIS 7.0 or 7.5</span>
+                        </li>
+                        <li><span>Windows 2012   </span><strong><span>标配容器</span></strong><span>：IIS 8.0</span></li>
+                        <li><span>Windows 2016   </span><strong><span>标配容器</span></strong><span>：IIS 8.5</span></li>
+                        <li><span>Windows 2019   </span><strong><span>标配容器</span></strong><span>：IIS 10</span></li>
+                    </ul>
+                </blockquote>
+                <h3><a name="容器" class="md-header-anchor"></a><span>容器</span></h3>
+                <blockquote><h6><a name="iis-常用脚本数据库" class="md-header-anchor"></a><span>IIS 常用脚本+数据库</span></h6>
+                    <ul>
+                        <li><span>ASP+Acces数据库</span></li>
+                    </ul>
+                    <ul>
+                        <li><span>ASPX(ASP.NET)+MSSQL  </span></li>
+                    </ul>
+                </blockquote>
+                <blockquote><h6><a name="apache-常用脚本数据库" class="md-header-anchor"></a><span>Apache 常用脚本+数据库</span></h6>
+                    <ul>
+                        <li><span>PHP+Mysql</span></li>
+                    </ul>
+                </blockquote>
+                <blockquote><h6><a name="nginx常用脚本数据库" class="md-header-anchor"></a><span>Nginx常用脚本+数据库</span></h6>
+                    <ul>
+                        <li><span>PHP+Mysql</span></li>
+                    </ul>
+                </blockquote>
+                <blockquote><h6><a name="tomcat常用脚本数据库" class="md-header-anchor"></a><span>Tomcat常用脚本+数据库</span></h6>
+                    <ul>
+                        <li><span>JSP+Mysql or Oracle</span></li>
+                    </ul>
+                </blockquote>
+                <h5><a name="数据库" class="md-header-anchor"></a><span>数据库：</span></h5>
+                <p><span>Access、Sql server(MSSQL)、Mysql、Redis、MongoDB</span></p></blockquote>
+        </div>
+    </div>
+    <!--end main content-->
+</main>
+<!--end main-->
+<!--js-->
+<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="../../static/blog/js/stickySidebar.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#sidebar').stickySidebar({
+            sidebarTopMargin: 20,
+            footerThreshold: 100
+        });
+    });
+</script>
+<!--背景 start-->
+<canvas id=c class="c"></canvas>
+<script src="../../static/blog/js/background.js"></script>
+<script type="text/javascript">
+    $(function () {
+        //添加窗口尺寸改变响应监听
+        $(window).resize(resizeCanvas);
+        //页面加载后先设置一下canvas大小
+        resizeCanvas();
+    });
+
+    //窗口尺寸改变响应（修改canvas大小）
+    function resizeCanvas() {
+        $("window").attr("width", $(window).get(0).innerWidth);
+        $("window").attr("height", $(window).get(0).innerHeight);
+    };
+</script>
+<!--背景 end-->
+<!--<iframe style="position: absolute;z-index: -111" frameborder="no" border="0" marginwidth="0" marginheight="0" allow="autoplay" width=330 height=86 src="../../static/blog/video/一剑倾城（带念白版）.mp3"></iframe>-->
+<embed frameborder="no" border="0" marginwidth="0" marginheight="0" width=0 height=0
+       src="../../static/blog/video/一剑倾城（带念白版）.mp3"></embed>
+</body>
+</html>

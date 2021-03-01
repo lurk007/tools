@@ -1,0 +1,30 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.instructions {
+  position: absolute;
+  top:30%;
+  left: 50%;
+  margin-left:-8%;
+  padding: 0.5em;
+  background: rgba(0, 0, 0, 0.3);
+  color: #FFF;
+  font-size: 30px;
+  font-family: monospace;
+}

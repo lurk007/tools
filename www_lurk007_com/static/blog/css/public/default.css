@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    color: #afafaf;
+    text-decoration: none;
+}
+
+a:visited {
+    font-size: 16px;
+    color: #afafaf;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 16px;
+    color: aqua;
+    text-decoration: underline;
+}
+
+a {
+    font-size: 16px;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-select: none;
+    -moz-user-focus: normal;
+    -moz-user-select: none;
+    text-decoration-line: none;
+    text-decoration-color: aqua;
+
+
+}
+
+a, a:hover, a:active, a:visited, a:link, a:focus {
+    -webkit-user-select: none;
+    -moz-user-focus: normal;
+    -moz-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    outline: none;
+    background: none;
+}
+
+::selection {
+    background: #FFF;
+    color: #333;
+}
+
+::-moz-selection {
+    background: #FFF;
+    color: #333;
+}
+
+.body{
+    width: 60%;
+    float: left;
+    border: 0;
+    background: rgba(0, 0, 0, 0);
+}
+.section{
+    height: auto;
+}
+.footer{
+    width: 60%;
+    float: left;
+    border: 0;
+    margin-left: 8%    ;
+    background: rgba(0, 0, 0, 0);
+}

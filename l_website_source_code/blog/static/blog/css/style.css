@@ -1,0 +1,155 @@
+/* NORMALIZE ............................................ */
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body, div, dl, dt, dd, pre, form, fieldset, input, table, th, td, embed, object {
+    margin: 0;
+    padding: 0;
+}
+
+:focus {
+    outline: 0
+}
+
+:link, :visited {
+    text-decoration: none
+}
+
+/* clearfix */
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+
+/* HTML ELEMENTS....................................... */
+body {
+    background: #fff;
+    color: #666;
+    font: 13px/1.4em 'Open Sans', sans-serif;
+    text-align: left;
+}
+
+/* heading */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1em;
+    margin: 1em 0;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+
+/* LAYOUT ............................................. */
+
+/* Header .............. */
+/*header { background-color: #ccc; height: 100px; width: 100%; }*/
+
+/* Navigation .......... */
+nav {
+    background-color: #999;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 940px;
+    overflow: hidden;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    font-size: 15px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 20px;
+    width: auto;
+}
+
+nav ul li a:link, nav ul li a:visited {
+    color: #fff;
+    transition: color 0.15s linear;
+}
+
+nav ul li a:hover, nav ul li a:active {
+    color: #000;
+}
+
+nav ul li.active a:link, nav ul li.active a:visited, nav ul li.active a:hover, nav ul li.active a:active {
+    color: #000 !important;
+}
+
+nav ul li.right {
+    float: right;
+}
+
+/* Main ................ */
+main {
+    margin: 20px auto;
+    max-width: 940px;
+}
+
+/* aside */
+aside {
+    float: left;
+    max-width: 220px;
+}
+
+.inside {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 0px;
+}
+
+#sidebar.sticky {
+    float: none;
+    position: fixed;
+    top: 20px;
+    z-index: 6;
+    left: auto;
+}
+
+/* main content */
+.main_content {
+    float: right;
+    max-width: 700px;
+}
+
+/* Footer .............. */
+footer {
+    background-color: #999;
+    height: 300px;
+    width: 100%;
+}

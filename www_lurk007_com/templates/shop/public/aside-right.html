@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="{% static 'shop/css/public/aside.css' %}">
+<aside class="aside aside-right">
+ <a href="#top" hidden></a>
+    <a href="#top" class="to_top">
+        <svg t="1612979119780" class="icon to_top" viewBox="0 0 1147 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1131" ><path d="M1113.784 769.147l-98.877 98.877L655.36 508.477V1024H491.52V508.477L131.973 868.024l-98.877-98.877L556.483 245.76h33.914l523.387 523.387zM0 0h1146.88v163.84H0V0z" p-id="1132" fill="#1296db"></path></svg>
+    </a>
+    {#    <a href="#">链接</a>#}
+    {% for foo in href_list %}
+        <span style="color: #FFFFFF">{{ forloop.counter }}.</span>
+        {% for k,v in foo.items %}
+            {% ifequal k 'href' %}
+                <a href="{{ v }}">
+                    {% else %}
+                    {{ v }}</a>
+            {% endifequal %}
+        {% endfor %}
+        <hr>
+    {% endfor %}
+</aside>

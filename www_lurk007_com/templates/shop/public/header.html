@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="{% static 'shop/css/public/header.css' %}">
+<nav class="header">
+{#    <a href="#">链接</a>#}
+    {% for foo in href_list %}
+        {% for k,v in foo.items %}
+            {% ifequal k 'href' %}
+                <a href="{{ v }}">
+                    {% else %}
+                    {{ v }}</a>
+            {% endifequal %}
+        {% endfor %}
+    {% endfor %}
+
+</nav>

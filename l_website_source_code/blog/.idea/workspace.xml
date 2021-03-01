@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5f3277ad-6ad5-4071-be37-aad799664b08" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Personal-home-page/Personal profile/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Personal-home-page/Personal profile/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ljl &lt;758286797@qq.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lReQ1wnl6EWOgN1qex6uhYMp8J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/blog/video" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\git\l-website-source-code\上课代码\static\blog\css" />
+      <recent name="F:\git\l-website-source-code\上课代码\static" />
+      <recent name="F:\BaiduNetdiskDownload\4-flask框架\20201012-第二讲-flask视图&amp;模板简介\上课代码\static" />
+      <recent name="F:\BaiduNetdiskDownload\4-flask框架\20201012-第二讲-flask视图&amp;模板简介\上课代码\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\git\l-website-source-code\上课代码\static\blog\video" />
+      <recent name="F:\git\l-website-source-code\上课代码\static\blog\js" />
+      <recent name="F:\git\l-website-source-code\上课代码\templates\blog" />
+      <recent name="F:\git\l-website-source-code\上课代码\static\blog\css" />
+      <recent name="F:\git\l-website-source-code\上课代码\static\blog" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.上课代码">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/上课代码/templates/Personal-home-page/Personal profile/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/上课代码/templates/Personal-home-page/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="上课代码" type="PythonConfigurationType" factoryName="Python">
+      <module name="上课代码" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask模板.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f3277ad-6ad5-4071-be37-aad799664b08" name="Default Changelist" comment="" />
+      <created>1607564310734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607564310734</updated>
+      <workItem from="1607564312298" duration="26000" />
+      <workItem from="1607953531689" duration="2940000" />
+      <workItem from="1607961453992" duration="1417000" />
+      <workItem from="1608021928078" duration="1513000" />
+      <workItem from="1608024555418" duration="3086000" />
+      <workItem from="1608041171909" duration="3174000" />
+      <workItem from="1608129426428" duration="5239000" />
+      <workItem from="1608134761312" duration="3253000" />
+      <workItem from="1608180965566" duration="336000" />
+      <workItem from="1608182025270" duration="3288000" />
+      <workItem from="1608197001747" duration="1183000" />
+    </task>
+    <task id="LOCAL-00001" summary="test1">
+      <created>1607961500342</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607961500342</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test2">
+      <created>1607962199556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607962199556</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test3">
+      <created>1608022674345</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608022674345</updated>
+    </task>
+    <task id="LOCAL-00004" summary="添加个人自序">
+      <created>1608042445667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608042445667</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改自序地址">
+      <created>1608042804754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608042804754</updated>
+    </task>
+    <task id="LOCAL-00006" summary="修改图标样式链接">
+      <created>1608043094318</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608043094318</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改头像">
+      <created>1608043675695</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608043675695</updated>
+    </task>
+    <task id="LOCAL-00008" summary="修改链接">
+      <created>1608043933858</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608043933858</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加博客页面模板">
+      <created>1608135568384</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608135568384</updated>
+    </task>
+    <task id="LOCAL-00010" summary="添加博客页面模板以及背景音乐">
+      <created>1608135814854</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608135814854</updated>
+    </task>
+    <task id="LOCAL-00011" summary="添加博客页面模板以及背景音乐">
+      <created>1608136218096</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1608136218096</updated>
+    </task>
+    <task id="LOCAL-00012" summary="添加博客页面模板以及背景音乐">
+      <created>1608136536354</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608136536354</updated>
+    </task>
+    <task id="LOCAL-00013" summary="添加博客页面模板以及背景音乐">
+      <created>1608136783894</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608136783894</updated>
+    </task>
+    <task id="LOCAL-00014" summary="修改一些细节">
+      <created>1608136987297</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608136987297</updated>
+    </task>
+    <task id="LOCAL-00015" summary="隐藏播放按钮">
+      <created>1608137506618</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608137506618</updated>
+    </task>
+    <task id="LOCAL-00016" summary="隐藏播放按钮">
+      <created>1608137653099</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1608137653099</updated>
+    </task>
+    <task id="LOCAL-00017" summary="隐藏播放按钮">
+      <created>1608137923135</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1608137923135</updated>
+    </task>
+    <task id="LOCAL-00018" summary="隐藏播放按钮">
+      <created>1608182477788</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1608182477788</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test1" />
+    <MESSAGE value="test2" />
+    <MESSAGE value="test3" />
+    <MESSAGE value="添加个人自序" />
+    <MESSAGE value="修改自序地址" />
+    <MESSAGE value="修改图标样式链接" />
+    <MESSAGE value="修改头像" />
+    <MESSAGE value="修改链接" />
+    <MESSAGE value="添加博客页面模板" />
+    <MESSAGE value="添加博客页面模板以及背景音乐" />
+    <MESSAGE value="修改一些细节" />
+    <MESSAGE value="隐藏播放按钮" />
+    <option name="LAST_COMMIT_MESSAGE" value="隐藏播放按钮" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1607954178657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607954178657" />
+    <state x="373" y="0" key="CommitChangelistDialog2" timestamp="1608182476639">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="373" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1608182476639" />
+    <state x="560" y="111" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1608043933060" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607564336623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607564336623" />
+    <state width="1222" height="69" key="GridCell.Tab.0.bottom" timestamp="1608193611130">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1222" height="69" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608193611130" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608044376617" />
+    <state width="1222" height="69" key="GridCell.Tab.0.center" timestamp="1608193611130">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1222" height="69" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608193611130" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608044376617" />
+    <state width="1222" height="69" key="GridCell.Tab.0.left" timestamp="1608193611130">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1222" height="69" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608193611130" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608044376617" />
+    <state width="1222" height="69" key="GridCell.Tab.0.right" timestamp="1608193611130">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1222" height="69" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608193611130" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608044376617" />
+    <state x="368" y="148" key="Vcs.Push.Dialog.v2" timestamp="1608182479632">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="368" y="148" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608182479632" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608043935570" />
+    <state x="164" y="114" width="773" height="445" key="find.popup" timestamp="1608129488875">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="164" y="114" width="773" height="445" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1608129488875" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608043061081">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1608043061081" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="上课代码 Coverage Results" MODIFIED="1608184239590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>
